@@ -1,0 +1,5 @@
+*.csv
+*.txt
+*.png
+atus_anual_csv.zip
+!/atus_anual_csv/.gitkeep
