@@ -1,5 +1,13 @@
 *.csv
 *.txt
 *.png
+*.pdf
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.xml
 atus_anual_csv.zip
 !/atus_anual_csv/.gitkeep
+!requirements.txt
