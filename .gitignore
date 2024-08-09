@@ -8,6 +8,10 @@
 *.shp
 *.shx
 *.xml
+*.zip
+*.xls
+*.xlsx
+*.ipynb
 atus_anual_csv.zip
 !/atus_anual_csv/.gitkeep
 !requirements.txt
