@@ -197,7 +197,8 @@ def create_tr_cifra(host, dbname, user, port, password, schema_name):
                 FOREIGN KEY("ID_DIA") REFERENCES tc_dia,
                 FOREIGN KEY("ID_MINUTO") REFERENCES tc_minuto,
                 FOREIGN KEY("ID_EDAD") REFERENCES tc_edad
-        )"""
+        );
+        """
     )
 
     with psycopg2.connect(host=host, user=user, password=password, dbname=dbname, port=port, options=f'-c search_path={schema_name}') as conn:
